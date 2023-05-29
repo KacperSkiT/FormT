@@ -1,0 +1,233 @@
+body {
+font-family: Arial, sans-serif;
+}
+
+form {
+max-width: 800px;
+margin: 0 auto;
+padding: 20px;
+background-color: #f9f9f9;
+border-radius: 15px;
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+section {
+margin-bottom: 20px;
+}
+
+h2 {
+font-size: 26px;
+margin-top: 0;
+text-align: center;
+padding-bottom: 10px;
+border-bottom: 1px solid #ccc;
+}
+
+label {
+display: block;
+margin-bottom: 5px;
+font-size: 16px;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="number"],
+select,
+textarea {
+width: 100%;
+padding: 10px;
+border: 1px solid #ccc;
+border-radius: 6px;
+box-sizing: border-box;
+margin-bottom: 10px;
+}
+
+input[type="file"] {
+margin-top: 10px;
+}
+
+
+button[type="submit"] {
+background-color: #4CAF50;
+}
+.b_submit {
+text-align: center;
+}
+
+button[type="submit"],
+button[type="button"] {
+color: white;
+padding: 10px 20px;
+border: none;
+border-radius: 6px;
+cursor: pointer;
+font-weight: bold;
+}
+
+button[type="submit"]:hover {
+background-color: #3e8e41;
+}
+
+.cargo-section {
+padding-top: 15px;
+}
+
+.cargo {
+border: 1px solid #ccc;
+border-radius: 4px;
+padding: 10px;
+float: left;
+}
+
+.cargo h3 {
+margin-top: 0;
+text-align: center;
+}
+
+.cargo-section label {
+display: inline-block;
+margin-bottom: 0;
+}
+
+.cargo-section select {
+width: auto;
+margin-right: 10px;
+}
+.remove-cargo-btn {
+background-color: #f44336;
+}
+
+.remove-cargo-btn:hover {
+background-color: #da190b;
+}
+
+.cargos-container {
+display: flex;
+flex-wrap: wrap;
+}
+
+.alert-success {
+text-align: center;
+color: #fff;
+font-size: 25px;
+font-weight: bold;
+border: 1px solid #ccc;
+background-color: #3e8e41;
+border-radius: 8px;
+max-width: 600px;
+padding: 10px;
+margin: 15px auto;
+}
+
+.error {
+padding-bottom: 8px;
+max-width: 600px;
+margin: 2px auto;
+}
+
+.error_text {
+background-color: #EF4444;
+color: #FFFFFF;
+font-weight: bold;
+border-top-left-radius: 0.5px;
+text-align: center;
+}
+
+.error_list {
+margin-top: 0px;
+background-color: #FECACA;
+color: #9B2C2C;
+border: 1px solid #EF4444;
+border-bottom-left-radius: 0.25rem;
+border-bottom-right-radius: 0.25rem;
+
+}
+
+.date {
+float: left;
+width: 50%;
+margin-right: 30px;
+}
+
+
+.cargo {
+flex: 0 0 100%;
+margin-bottom: 10px;
+}
+
+@media (min-width: 768px) {
+.cargo {
+flex: 0 0 48%;
+margin-right: 4%;
+}
+}
+
+@media (min-width: 992px) {
+.cargo {
+flex: 0 0 31%;
+margin-right: 4%;
+}
+}
+
+@media (min-width: 1200px) {
+.cargo {
+flex: 0 0 23%;
+margin-right: 4%;
+}
+}
+
+.add-cargo-btn {
+background-color: #008CBA;
+color: white;
+margin: 10px;
+}
+
+.add-cargo-btn:hover {
+background-color: #006e8e;
+}
+
+
+.cargo:last-child {
+margin-bottom: 0;
+}
+
+.remove-cargo-btn:last-child {
+margin-bottom: 0;
+}
+
+.remove-cargo-btn:focus {
+outline: none;
+}
+
+.documents-input {
+background-color: #DDDDDD;
+color: black;
+padding: 10px 20px;
+border-radius: 4px;
+cursor: pointer;
+}
+
+.documents-input:hover {
+background-color: #EEEEEE;
+}
+
+.documents-input:active {
+background-color: #EEEEEE;
+}
+
+.documents-input.has-files {
+background-color: #EEEEEE;
+}
+
+.documents-input.has-files:hover {
+background-color: #EEEEEE;
+}
+
+.documents-input.has-files:active {
+background-color: #EEEEEE;
+}
+
+.documents-input.file-count {
+margin-left: 5px;
+font-weight: bold;
+}
