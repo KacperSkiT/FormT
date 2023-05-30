@@ -42,14 +42,10 @@ box-sizing: border-box;
 margin-bottom: 10px;
 }
 
-input[type="file"] {
-margin-top: 10px;
-}
-
-
 button[type="submit"] {
 background-color: #4CAF50;
 }
+
 .b_submit {
 text-align: center;
 }

@@ -5,7 +5,6 @@ namespace App\Http\Controllers;
 use App\Mail\DataExported;
 use App\Models\Item;
 use App\Models\Transport;
-use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
 use Illuminate\Support\Facades\Mail;
@@ -54,7 +53,7 @@ class TransportController extends Controller
         }
     }
 
-    public function store(Request $request): RedirectResponse
+    public function store(Request $request)
     {
         $weightLimit = $this->getWeightLimit($request->plane);
 

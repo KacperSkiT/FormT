@@ -152,7 +152,6 @@ return [
     'url' => 'The :attribute field must be a valid URL.',
     'ulid' => 'The :attribute field must be a valid ULID.',
     'uuid' => 'The :attribute field must be a valid UUID.',
-    
 
     /*
     |--------------------------------------------------------------------------
@@ -175,7 +174,7 @@ return [
             'max' => 'Maksymalnie 255 znaków',
         ],
         'plane' => [
-            'in' => 'Samolot nie został wybrany.'
+            'in' => 'Samolot nie został wybrany.',
         ],
         'date' => [
             'required' => 'Data transportu jest wymagana.',
@@ -189,7 +188,7 @@ return [
         ],
         'weight.*' => [
             'required' => 'Pole "Ciężar ładunku" jest wymagane.',
-            
+
         ],
         'type.*' => [
             'required' => 'Typ ładunku nie został wybrany.',
